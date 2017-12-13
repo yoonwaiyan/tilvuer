@@ -1,6 +1,10 @@
 {
   "name": "tilvuer",
   "private": true,
+  "scripts": {
+    "dev:wds": "./bin/webpack-dev-server",
+    "start": "rails s -b 0.0.0.0"
+  },
   "dependencies": {
     "@rails/webpacker": "^3.1.1",
     "vue": "^2.5.10",
